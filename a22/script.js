@@ -50,9 +50,9 @@ function setup() {
   dropdown.parent('column-one');
   dropdown.class('custom-select');
    // dropdown.position(10, 610);
-  dropdown.option('Xavier');
-  dropdown.option('Drake');
-  dropdown.option('Monkey');
+  dropdown.option('Image 1');
+  dropdown.option('Image 2');
+  dropdown.option('Image 3');
   dropdown.changed(changeImage);
 
   let p4 = createP('Textbox 1');
