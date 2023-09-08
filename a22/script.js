@@ -174,7 +174,7 @@ function displayText() {
   let index = int(selectedIndex.charAt(selectedIndex.length - 1)) - 1;
   
   if (index >= 0 && index < images.length) {
-    image(images[index], 50, 10, 190, 580);
+    image(images[index], 2, 2, 190, 580);
     //image(im1, 0,50,400,300);
   }
   noFill(0);
